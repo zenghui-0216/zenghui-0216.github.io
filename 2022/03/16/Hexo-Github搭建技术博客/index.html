@@ -107,7 +107,7 @@
 <h2 id="然后打开仓库创建一个-index-html-文件，并随意先写点内容，比如-Hello-World"><a href="#然后打开仓库创建一个-index-html-文件，并随意先写点内容，比如-Hello-World" class="headerlink" title="然后打开仓库创建一个 index.html 文件，并随意先写点内容，比如 Hello World."></a>然后打开仓库创建一个 index.html 文件，并随意先写点内容，比如 Hello World.</h2><p><a target="_blank" rel="noopener" href="https://segmentfault.com/img/remote/1460000017990243/view?w=497&h=226">图片链接</a></p>
 <p>这个时候打开 http:&#x2F;&#x2F;你的用户名.github.io 就可以看到你的站点啦，是不是很简单！index.html 内容只是暂时的预览效果，后面把 Hexo 的文件部署上去就可以在 http:&#x2F;&#x2F;你的用户名.github.io 看到你自己的博客啦！ 比如我的就是 <a target="_blank" rel="noopener" href="http://webw3c.github.io/">http://webw3c.github.io</a> 了。</p>
 <h1 id="配置-SSH-key"><a href="#配置-SSH-key" class="headerlink" title="配置 SSH key"></a>配置 SSH key</h1><p>打开命令行输入<br>cd ~&#x2F;.ssh<br>如果没报错或者提示什么的说明就是以前生成过的，直接使用 cat ~&#x2F;.ssh&#x2F;id_rsa.pub 命令就是可以查看本机上的 SSH key 了。</p>
-<p>首次使用还需要确认并添加主机到本机SSH可信列表。若返回 Hi xxx! You’ve successfully authenticated, but GitHub does not provide shell access. 内容，则证明添加成功。<br>命令行输入： ssh -T <a href="mailto:&#x67;&#x69;&#116;&#64;&#x67;&#105;&#x74;&#104;&#x75;&#98;&#46;&#99;&#x6f;&#x6d;">&#x67;&#x69;&#116;&#64;&#x67;&#105;&#x74;&#104;&#x75;&#98;&#46;&#99;&#x6f;&#x6d;</a><br><strong>如果报错：<a href="mailto:&#x67;&#x69;&#116;&#64;&#x67;&#105;&#x74;&#x68;&#117;&#x62;&#46;&#99;&#x6f;&#x6d;">&#x67;&#x69;&#116;&#64;&#x67;&#105;&#x74;&#x68;&#117;&#x62;&#46;&#99;&#x6f;&#x6d;</a>: Permission denied (publickey).</strong><br>登录 Github 上添加刚刚生成的SSH key，按以下步骤添加：<br>Settings - SSH and GPG keys - New SSH key<br>把id_rsa.pub中的key添加进去。</p>
+<p>首次使用还需要确认并添加主机到本机SSH可信列表。若返回 Hi xxx! You’ve successfully authenticated, but GitHub does not provide shell access. 内容，则证明添加成功。<br>命令行输入： ssh -T <a href="mailto:&#x67;&#105;&#x74;&#64;&#x67;&#105;&#x74;&#104;&#117;&#98;&#x2e;&#99;&#x6f;&#109;">&#x67;&#105;&#x74;&#64;&#x67;&#105;&#x74;&#104;&#117;&#98;&#x2e;&#99;&#x6f;&#109;</a><br><strong>如果报错：<a href="mailto:&#x67;&#x69;&#x74;&#x40;&#x67;&#105;&#116;&#x68;&#117;&#x62;&#46;&#99;&#x6f;&#109;">&#x67;&#x69;&#x74;&#x40;&#x67;&#105;&#116;&#x68;&#117;&#x62;&#46;&#99;&#x6f;&#109;</a>: Permission denied (publickey).</strong><br>登录 Github 上添加刚刚生成的SSH key，按以下步骤添加：<br>Settings - SSH and GPG keys - New SSH key<br>把id_rsa.pub中的key添加进去。</p>
 <h1 id="部署到-Github"><a href="#部署到-Github" class="headerlink" title="部署到 Github"></a>部署到 Github</h1><p>第一：打开项目根目录下的 _config.yml 配置文件配置参数。拉到文件末尾，填上如下配置：</p>
 <p>deploy:<br>  type: git<br>  repo:<br>    github: <a target="_blank" rel="noopener" href="https://github.com/zenghui-0216/zenghui-0216.github.io.git">https://github.com/zenghui-0216/zenghui-0216.github.io.git</a><br>  branch: master</p>
 <p>第二：要安装一个部署插件 hexo-deployer-git。<br>npm install hexo-deployer-git –save</p>
@@ -117,7 +117,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/03/16/Hexo-Github%E6%90%AD%E5%BB%BA%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/" data-id="cl0t76d020000l3w79hyze7y3" data-title="Hexo+Github搭建技术博客" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/03/16/Hexo-Github%E6%90%AD%E5%BB%BA%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/" data-id="cl0t79k0z0000mow7eg84hu0f" data-title="Hexo+Github搭建技术博客" class="article-share-link">Share</a>
       
       
       
@@ -128,7 +128,7 @@
 <nav id="article-nav">
   
   
-    <a href="/2022/03/16/%E6%83%A0%E5%8D%9A%E5%AE%A2/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2022/03/16/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
       <div class="article-nav-title">惠博客</div>
     </a>
@@ -169,10 +169,6 @@
         
           <li>
             <a href="/2022/03/16/Hexo-Github%E6%90%AD%E5%BB%BA%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/">Hexo+Github搭建技术博客</a>
-          </li>
-        
-          <li>
-            <a href="/2022/03/16/%E6%83%A0%E5%8D%9A%E5%AE%A2/">惠博客</a>
           </li>
         
           <li>
